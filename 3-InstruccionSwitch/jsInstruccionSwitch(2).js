@@ -1,9 +1,13 @@
 function mostrar()
 {
 //tomo la edad  
-var mesDelAño = document.getElementById('mes').value;
+var mes = document.getElementById('mes').value;
+switch(mes)
+{
+case "Enero" && "Febrero" && "Marzo" && "Abril" && "Mayo" && "Junio":
+()
 
-alert (mesDelAño);
+alert (mes);
 
 
 
