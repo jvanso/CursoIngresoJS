@@ -33,7 +33,7 @@ function Promedio ()
     resultado=(precio1 + precio2 + precio3);
     promedio=resultado / 3
     
-    alert("El precio es " + promedio);
+    alert("El promedio es de " + promedio);
     
 
 
@@ -54,8 +54,9 @@ function PrecioFinal ()
     op=resultado / 100;
 
     op2=op * 21;
+    op3=op2 + op
 
-    alert("El precio es " + op2);
+    alert("El precio final es " + op2);
     
 
 
